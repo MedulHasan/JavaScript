@@ -30,7 +30,7 @@ var inr_number = 1
 
 
 
-// ------------Object---
+// ------------Object-------
 // array
 // Object
 // function
