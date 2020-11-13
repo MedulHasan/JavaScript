@@ -19,7 +19,7 @@ function myReduce(arr, cb, acc) {
     }
     return acc
 }
-var sum = myReduce(arr, function(prev, curr) {
-    return prev + curr
+var sum = myReduce(arr, function(prev, curr){
+     return prev + curr
 }, 0)
 console.log(sum);

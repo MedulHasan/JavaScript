@@ -1,4 +1,4 @@
-// `it return the same result if given the same argument'
+// 'it return the same result if given the same argument'
 // 'it does not cause any observablr side effects'
 
 function sqr(n) {

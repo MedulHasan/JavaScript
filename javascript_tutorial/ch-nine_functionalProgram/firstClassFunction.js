@@ -20,8 +20,11 @@ console.log(obj.sumation(10,1));
 setTimeout(function() {
     console.log('I am set time out');
 }, 200)
+
+
+// higher
+
 // 5.we can push function as an arguments
 // 6.we can return function from another function
 
 //
-

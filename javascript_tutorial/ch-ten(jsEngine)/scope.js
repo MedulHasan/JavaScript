@@ -1,6 +1,2 @@
-function aa() {
-    console.log(x);
-}
-
-var x = 10
-aa()
+var a = 11
+console.log(a);

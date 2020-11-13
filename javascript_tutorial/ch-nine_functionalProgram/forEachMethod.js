@@ -4,6 +4,7 @@ var sum = 0
 arrr.forEach(function(value, index, arrr){
     sum +=  value
 })
+console.log(arrr);
 console.log(sum);
 
 console.log('create or own forEach function "output"');
