@@ -1,4 +1,4 @@
-/*
+
 let asyncIterable = {
     [Symbol.asyncIterator]() {
         let i = 0
@@ -21,10 +21,9 @@ let asyncIterable = {
 
 let iterate = asyncIterable[Symbol.asyncIterator]();
 
-(async function() {
-    for await(let v of asyncIterable) {
+(async function () {
+    for await (let v of asyncIterable) {
         console.log(v);
     }
 })()
 
-*/

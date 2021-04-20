@@ -1,8 +1,8 @@
 let obj = {
     start: 1,
     end: 10,
-    [Symbol.iterator]: function() {
-        let currentValue  = this.start
+    [Symbol.iterator]: function () {
+        let currentValue = this.start
         const self = this
         return {
             next() {

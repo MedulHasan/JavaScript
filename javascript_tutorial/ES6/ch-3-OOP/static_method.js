@@ -10,11 +10,12 @@ class Person {
 
     static create(str) {
         let person = JSON.parse(str)
+        // let x = new Person(person.name, person.email)
         return new Person(person.name, person.email)
     }
 }
 
-let str= '{"name": "medul", "email": "medul.cse"}'
+let str = '{"name": "medul", "email": "medul.cse"}'
 
 let p1 = Person.create(str)
 console.log(p1);

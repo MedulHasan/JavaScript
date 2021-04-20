@@ -4,19 +4,19 @@ function mixin(target, ...sources) {
 
 
 var canWalk = {
-    walk: function() {
+    walk: function () {
         console.log('Walking..');
     }
 }
 
 var canEat = {
-    eat: function() {
+    eat: function () {
         console.log('Eating...');
     }
 }
 
 var canSwim = {
-    swim: function() {
+    swim: function () {
         console.log('Swiming...');
     }
 }
@@ -28,7 +28,7 @@ function Person(name) {
     this.name = name
 }
 
-mixin(Person.prototype, canEat,canWalk)
+mixin(Person.prototype, canEat, canWalk)
 
 var person = new Person('Medul')
 
@@ -38,7 +38,7 @@ function GoldFish(name) {
     this.name = name
 }
 
-mixin(GoldFish.prototype, canEat,canWalk)
+mixin(GoldFish.prototype, canEat, canSwim)
 
 var fish = new GoldFish('golden fish')
 console.log(fish);

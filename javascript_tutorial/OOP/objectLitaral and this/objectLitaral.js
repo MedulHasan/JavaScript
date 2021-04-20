@@ -1,14 +1,14 @@
 var rect = {
-    width: 100, //opject property
+    width: 100, //object property
     height: 50,
 
-    draw: function() {
+    draw: function () {
         console.log('i am a rectangle');
         this.printProperties()
         // console.log(this); //rect property object
     },
 
-    printProperties: function() {
+    printProperties: function () {
         console.log('my width is: ' + this.width);
         console.log('my height is: ' + this.height);
     }

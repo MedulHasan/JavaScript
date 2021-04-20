@@ -1,7 +1,7 @@
-/*
+
 const delay = (s) => {
     return new Promise((resolve) => {
-        setTimeout(resolve, s*1000)
+        setTimeout(resolve, s * 1000)
     })
 }
 
@@ -9,8 +9,8 @@ delay(2).then(() => console.log('2 sec delay'))
 delay(4).then(() => console.log('4 sec delay'))
 delay(3).then(() => console.log('3 sec delay'))
 delay(1).then(() => console.log('1 sec delay'))
-*/
- /*
+
+/*
 let p1 = Promise.resolve('test')
 p1.then(v => console.log(v))
 

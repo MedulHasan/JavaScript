@@ -30,7 +30,7 @@ class Person {
     }
 }
 
-let str= '{"name": "medul", "email": "medul.cse"}'
+let str = '{"name": "medul", "email": "medul.cse"}'
 
 let p1 = Person.create(str)
 // console.log(p1);

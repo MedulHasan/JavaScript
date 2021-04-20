@@ -1,4 +1,4 @@
-// set
+// -------set
 
 // let a = {a: 10}, b = {b: 20}
 // let set = new Set([a, b])
@@ -8,7 +8,7 @@
 // console.log(arr[0]);
 
 
-// weak set
+// -------weak set
 // let a = {a: 10}, b = {b: 20}
 // let weakset = new weakSet([a, b])
 // console.log(weakset);
